@@ -38,7 +38,7 @@
                             </span>
 
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="#" class="post post-page"><span property="name">Angola</span></a>
+                                    href="#" class="post post-page"><span property="name">Cultura e Turismo</span></a>
 
                             </span>
 

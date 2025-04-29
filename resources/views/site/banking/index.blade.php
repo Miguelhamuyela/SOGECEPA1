@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Sector Bancário')
+@section('titulo', 'Banca')
 @section('content')
 
     <!-- ====== Banner Start ====== -->
@@ -17,7 +17,7 @@
                 <div class="financity-page-title-overlay"></div>
                 <div class="financity-page-title-container financity-container">
                     <div class="financity-page-title-content financity-item-pdlr">
-                        <h1 class="financity-page-title">Sector Bancário</h1>
+                        <h1 class="financity-page-title">Banca</h1>
 
                     </div>
                 </div>
@@ -35,9 +35,16 @@
                                     title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
-                            </span>•<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="{{ route('site.angoSat') }}" class="post post-page"><span
-                                        property="name">ANGOSAT-2</span></a>
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Economia</span></a>
+
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="{{ route('site.banking') }}" class="post post-page"><span
+                                        property="name">Banca</span></a>
                         </div>
                     </div>
                 </div>

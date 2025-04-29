@@ -37,6 +37,12 @@
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
                             </span>•
+
+                            <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    title="Go to Financity." href="#" class="home"><span
+                                        property="name">Angola</span></a>
+                                <meta property="position" content="1">
+                            </span> •
                             <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
                                     title="Go to Financity." href="#" class="home"><span
                                         property="name">Galeria</span></a>
@@ -136,7 +142,8 @@
                         <div class="gdlr-core-pbf-element">
                             <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-modern"
                                 style="padding-bottom: 10px;">
-                                <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
+                                <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix"
+                                    data-layout="fitrows">
 
 
 

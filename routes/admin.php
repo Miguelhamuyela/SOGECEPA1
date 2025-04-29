@@ -48,6 +48,27 @@ Route::middleware(['auth'])->group(function () {
 
         Route::get('admin/news/delete/{id}', ['as' => 'admin.news.delete', 'uses' => 'Admin\NewsController@destroy']);
         /* end news */
+
+
+
+  /* SchoolsController */
+  Route::get('admin/schools/index', ['as' => 'admin.schools.index', 'uses' => 'Admin\SchoolsController@list']);
+  Route::get('admin/schools/show/{id}', ['as' => 'admin.schools.show', 'uses' => 'Admin\SchoolsController@show']);
+
+  Route::get('admin/schools/create', ['as' => 'admin.schools.create', 'uses' => 'Admin\SchoolsController@create']);
+  Route::post('admin/schools/store', ['as' => 'admin.schools.store', 'uses' => 'Admin\SchoolsController@store']);
+
+  Route::get('admin/schools/edit/{id}', ['as' => 'admin.schools.edit', 'uses' => 'Admin\SchoolsController@edit']);
+  Route::put('admin/schools/update/{id}', ['as' => 'admin.schools.update', 'uses' => 'Admin\SchoolsController@update']);
+
+        Route::get('admin/schools/delete/{id}', ['as' => 'admin.schools.delete', 'uses' => 'Admin\SchoolsController@destroy']);
+  /* end SchoolsController */
+
+
+
+
+
+
              /* Events */
         Route::get('admin/event/index', ['as' => 'admin.event.index', 'uses' => 'Admin\EventController@list']);
         Route::get('admin/event/show/{id}', ['as' => 'admin.event.show', 'uses' => 'Admin\EventController@show']);

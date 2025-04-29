@@ -36,9 +36,16 @@
                                     title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
-                            </span>•<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="{{ route('site.legislation') }}" class="post post-page"><span
-                                        property="name">Legislação</span></a>
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Política
+                                        Institucional</span></a>
+
+
+                                •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                        href="{{ route('site.legislation') }}" class="post post-page"><span
+                                            property="name">Legislação</span></a>
 
                         </div>
                     </div>

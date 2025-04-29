@@ -43,218 +43,291 @@
 
                                 <li class="menu-item menu-item-has-children"><a href="#">Angola</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="{{ route('site.aboutangola') }}">Sobre Angola</a>
-                                        </li>
-                                        <li class="menu-item"><a href="{{ route('site.turism') }}">Turismo</a></li>
-                                        <li class="menu-item"><a href="{{ route('site.legislation') }}">Legislação</a>
-                                        </li>
-                                        <li class="menu-item"><a href="{{ route('site.angoSat') }}">ANGOSAT-2</a></li>
-                                        <li class="menu-item"><a href="{{ route('site.sport') }}">Desporto</a></li>
-                                        <li class="menu-item"><a href="{{ route('site.visa') }}">Vistos</a></li>
-                                        <li class="menu-item"><a href="{{ route('site.humanCapital') }}">Capital
-                                                Humano</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="menu-item menu-item-has-children financity-normal-menu">
-                                    <a href="#" class="sf-with-ul-pre">Grandes Investimentos</a>
-                                    <ul style=" right:13%;" class="sub-menu">
                                         <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.airPort') }}">Aeroporto Dr. António Agostinho
-                                                Neto</a></li>
+                                                href="{{ route('site.aboutangola') }}">Sobre Angola</a></li>
 
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.barOfDande') }}">Barra do Dande</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.angoSat') }}">Programa Espacial Nacional</a></li>
-
-                                        <li class="menu-item" data-size="60"><a href="{{ route('site.piim') }}">Plano
-                                                Integrado de Intervenção nos Municípios (PIIM)</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.angolaCables') }}">Angola Cables</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.connectAngola') }}">Conecta Angola</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.frankZone') }}">Zona Franca</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.lobitoCorridor') }}">Corredor do Lobito</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.kwenda') }}">Programa KWENDA</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.digitalAo') }}">Digital.ao</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.governCloud') }}">Cloud do Governo</a></li>
-
-
-
-
-                                        <li class="menu-item" data-size="60"><a href="#">Refinarias</a>
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a href="#"
+                                                class="sf-with-ul-pre">Galeria</a>
                                             <ul class="sub-menu">
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.refineryOfCabinda') }}">Refinaria de
-                                                        Cabinda</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.refineryOfSoyo') }}">Refinaria de Petróleo
-                                                        do Soyo</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.refineryOfLobito') }}">Refinaria de
-                                                        Petróleo do Lobito</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.refineryOfGold') }}">Refinaria de Ouro,
-                                                        Luanda</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.developmentHubOfNamibe') }}">Polo de
-                                                desenvolvimento de Rochas Ornamentais do Namíbe</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.developmentHubOfSaurimo') }}">Polo de
-                                                Desenvolvimento diamantífero de Saurimo</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.oceanTerminal') }}">Terminal Oceânico da Barra do
-                                                Dande</a></li>
-
-                                        <li class="menu-item" data-size="60"><a
-                                                href="{{ route('site.photovoltaicPlant') }}">Centrais Fotovoltaica do
-                                                Biópio e Baía Farta</a>
-                                        </li>
-
-                                        <li class="menu-item" data-size="60"><a href="#">Barragens e
-                                                Hidroelétricas</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.damCaculoCabaca') }}">Barragem Caculo
-                                                        Cabaça</a></li>
-                                                <li class="menu-item"><a href="{{ route('site.damLauca') }}">Barragem
-                                                        de Laúca</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item" data-size="60"><a href="#">Hospitais</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="{{ route('site.hospital') }}">Hospital
-                                                        Dom Alexandre do Nascimento</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.hospitalNevesBendinha') }}">Hospital
-                                                        Especializado Neves Bendinha</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.instituteHematologic') }}">Instituto
-                                                        Hematológico Pediátrico de Luanda</a></li>
-                                                <li class="menu-item"><a href="{{ route('site.walterHospital') }}">
-                                                        Hospital Dr.Walter Strangway</a></li>
-                                                <li class="menu-item"><a href="{{ route('site.cabindaHospital') }}">
-                                                        Hospital Geral de Cabinda</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.hospitalMaternoInfantil') }}"> Hospital
-                                                        Materno Infantil</a></li>
-                                                <li class="menu-item"><a href="{{ route('site.firedHospital') }}">
-                                                        Hospital dos Queimados</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-
-                                <li class="menu-item menu-item-has-children"><a href="#">Actualidades</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="{{ route('site.news') }}">Notícias</a></li>
-                                        <li class="menu-item"><a href="{{ route('site.event') }}">Eventos</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="menu-item menu-item-has-children"><a href="#">Angola Hoje</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-has-children"><a href="#">Economia</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="{{ route('site.miningResources') }}">
-                                                        Recursos Minerais</a></li>
-                                                <li class="menu-item"><a href="{{ route('site.oilGa') }}">Petróleo e
-                                                        Gás</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.blueEconomy') }}">Economia Azul</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.greenEconomy') }}">Economia Verde</a>
+                                                <li class="menu-item"><a href="{{ route('site.gallery') }}">Imagens</a>
                                                 </li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.energyWater') }}">Energia e Águas</a>
-                                                </li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.bankingArea') }}">Educação Financeira</a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item menu-item-has-children"><a
-                                                href="#">Empreendedorismo</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.agribusiness') }}">Agronegócio</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.tic') }}">Telecomunicações e Tecnologias
-                                                        da Informação</a></li>
-
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item menu-item-has-children"><a
-                                                href="#">Investimentos</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.external') }}">Diplomático/Externo</a>
-                                                </li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.culturalAndTouristic') }}">Cultural/Turístico</a>
-                                                </li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.economic') }}">Económico</a></li>
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.investingAngola') }}">Como Investir em
-                                                        Angola</a></li>
-
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item menu-item-has-children"><a href="#">Galeria</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a
-                                                        href="{{ route('site.gallery') }}">Imagens</a></li>
                                                 <li class="menu-item"><a href="{{ route('site.videos') }}">Vídeos</a>
                                                 </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item" data-size="60"><a
+                                                href="{{ route('site.visa') }}">Vistos</a></li>
+                                        <li class="menu-item" data-size="60"><a
+                                                href="{{ route('site.themedSession') }}">Sessões Temáticas</a>
+                                        </li>
+
+
+
+                                    </ul>
+                                </li>
+
+                                <li class="menu-item menu-item-has-children financity-normal-menu"><a href="#"
+                                        class="sf-with-ul-pre">Economia</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item"><a href="{{ route('site.investingAngola') }}">Como
+                                                Investir em Angola</a></li>
+
+                                        <li class="menu-item menu-item-has-children" data-size="15"><a href="#"
+                                                class="sf-with-ul-pre">Investimentos</a>
+
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-has-children"><a class="sf-with-ul-pre"
+                                                        href="#">Polos de
+                                                        investimentos</a>
+
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="{{ route('site.oceanTerminal') }}">Terminal
+                                                                Oceânico da Barra do
+                                                                Dande</a>
+
+
+                                                        </li>
+
+                                                        <li class="item-menu">
+                                                            <a href="{{ route('site.photovoltaicPlant') }}">Centrais
+                                                                Fotovoltaica do Biópio e Baía Farta</a>
+                                                        </li>
+
+
+                                                    </ul>
+                                                </li>
+
+
+                                                <li class="menu-item menu-item-has-children"><a
+                                                        href="#">Refinarias</a>
+
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.refineryOfCabinda') }}">Refinaria
+                                                                de Cabinda</a></li>
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.refineryOfSoyo') }}">Refinaria
+                                                                de Petróleo do Soyo</a></li>
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.refineryOfLobito') }}">Refinaria
+                                                                de Petróleo do Lobito</a></li>
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.refineryOfGold') }}">Refinaria
+                                                                de Ouro (Luanda)</a></li>
+
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children"><a
+                                                        href="#">Barragens</a>
+
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.damCaculoCabaca') }}">
+                                                                Caculo Cabaça</a></li>
+                                                        <li class="menu-item"><a href="{{ route('site.damLauca') }}">
+                                                                Laúca</a></li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children"><a
+                                                        href="#">Hospitais</a>
+
+                                                    <ul class="sub-menu">
+
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.hospital') }}">Hospital
+                                                                Dom Alexandre do Nascimento</a></li>
+                                                        <li><a href="{{ route('site.hospitalNevesBendinha') }}">
+                                                                Hospital Especializado Neves Bendinha</a>
+                                                        </li>
+                                                        <li><a href="{{ route('site.instituteHematologic') }}">
+                                                                Instituto Hematológico Pediátrico de
+                                                                Luanda</a>
+                                                        </li>
+                                                        <li><a href="{{ route('site.walterHospital') }}">
+                                                                Hospital Dr.Walter Strangway</a></li>
+                                                        <li><a href="{{ route('site.cabindaHospital') }}">Hospital
+                                                                Geral de Cabinda</a></li>
+                                                        <li><a href="{{ route('site.hospitalMaternoInfantil') }}">Hospital
+                                                                Materno Infantil</a></li>
+                                                        <li><a href="{{ route('site.firedHospital') }}">Hospital
+                                                                dos Queimados</a></li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.airPort') }}">Aeroporto Dr.
+                                                        António Agostinho Neto</a>
+
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.angoSat') }}">ANGOSAT-2</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.piim') }}">PIIM</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.angolaCables') }}">Angola
+                                                        Cables</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.frankZone') }}">Zona
+                                                        Franca</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.lobitoCorridor') }}">Corredor
+                                                        do Lobito</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.kwenda') }}">Projecto
+                                                        KWENDA</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.connectAngola') }}">Conecta
+                                                        Angola</a>
+                                                </li>
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.digitalAo') }}">Digital.ao</a>
+                                                </li>
+
+
+                                                <li class="menu-item menu-item-has-children financity-mega-menu">
+                                                    <a href="{{ route('site.governCloud') }}">Cloud do
+                                                        Governo</a>
+                                                </li>
+
+
+
+
 
 
                                             </ul>
                                         </li>
 
 
+                                        <li class="menu-item"><a href="{{ route('site.blueEconomy') }}">Economia
+                                                Azul</a></li>
 
+                                        <li class="menu-item"><a href="{{ route('site.greenEconomy') }}">Economia
+                                                Verde</a></li>
 
+                                        <li class="menu-item menu-item-has-children financity-normal-menu"><a
+                                                href="#" class="sf-with-ul-pre">Recursos Minerais</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.oilGa') }}">Petróleo e
+                                                        Gás</a>
+                                                </li>
 
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.ornamentalRocks') }}">Rochas
+                                                        Ornamentais</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.diamonds') }}">Diamantes</a>
+                                                </li>
 
-                                    </ul>
-                                </li>
+                                            </ul>
+                                        </li>
 
-                                <li class="menu-item menu-item-has-children"><a href="#">Serviços
-                                        Públicos</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="{{ route('site.agt') }}">AGT - Imposto
-                                                Predial (IP)</a>
+                                        <li class="menu-item"><a href="{{ route('site.energyWater') }}">Energia e
+                                                Águas</a>
                                         </li>
 
 
+                                        <li class="menu-item"><a href="{{ route('site.banking') }}">Banca</a>
+                                        </li>
+
+                                        <li class="menu-item"><a href="{{ route('site.tic') }}">Telecomunicações e
+                                                Tecnologias da Informação
+                                            </a>
+                                        </li>
+
+                                        <li class="menu-item"><a href="{{ route('site.agribusiness') }}">Agronegócio
+                                            </a>
+                                        </li>
+
+
+
                                     </ul>
                                 </li>
+
+                                <li class="menu-item menu-item-has-children financity-normal-menu"><a href="#"
+                                        class="sf-with-ul-pre">Política Institucional
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="{{ route('site.legislation') }}">Legislação</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li class="menu-item menu-item-has-children financity-normal-menu"><a href="#"
+                                        class="sf-with-ul-pre">Cultura & Turismo
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-has-children financity-mega-menu">
+                                            <a href="#">Turismo
+                                            </a>
+                                            <ul class="sub-menu">
+
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.turism') }}">Turismo</a>
+                                                </li>
+
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.event') }}">Eventos</a>
+                                                </li>
+
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.visa') }}">Vistos</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+
+
+
+
+
+
+
+                                </li>
+
+
+                                <li class="menu-item"><a href="{{ route('site.news') }}">Notícias</a></li>
+
+
+
+
+                                <li class="menu-item menu-item-has-children financity-normal-menu">
+                                    <a href="#" class="sf-with-ul-pre">Serviços Públicos</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item" data-size="60"><a href="#">CIAM</a></li>
+                                        <li class="menu-item" data-size="60"><a href="{{ route('site.agt') }}">AGT -
+                                                Imposto Predial (IP)</a></li>
+
+                                    </ul>
+                                </li>
+
+
 
 
                                 <li
@@ -346,7 +419,7 @@
                                 <a href="{{ $configuration->instagram }}" target="_blank"
                                     class="financity-top-bar-social-icon" title="instagram"><i
                                         class="fa fa-instagram"></i>
-                                    </a>
+                                </a>
 
                             </div>
 
@@ -393,47 +466,67 @@
                                             <ul class="sub-menu">
                                                 <li class="menu-item" data-size="60"><a
                                                         href="{{ route('site.aboutangola') }}">Sobre Angola</a></li>
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.turism') }}">Turismo</a></li>
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.legislation') }}">Legislação</a></li>
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.angoSat') }}">ANGOSAT-2</a></li>
 
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.sport') }}">Desporto</a></li>
-
+                                                <li class="menu-item menu-item-has-children" data-size="15"><a
+                                                        href="#" class="sf-with-ul-pre">Galeria</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.gallery') }}">Imagens</a>
+                                                        </li>
+                                                        <li class="menu-item"><a
+                                                                href="{{ route('site.videos') }}">Vídeos</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li class="menu-item" data-size="60"><a
                                                         href="{{ route('site.visa') }}">Vistos</a></li>
-
                                                 <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.humanCapital') }}">Capital Humano</a>
+                                                        href="{{ route('site.themedSession') }}">Sessões Temáticas</a>
                                                 </li>
+
+
+
                                             </ul>
                                         </li>
 
-                                        <li class="menu-item menu-item-has-children financity-mega-menu"><a
-                                                href="{{ route('site.madeInAngola') }}" class="sf-with-ul-pre">Feito
-                                                em Angola</a>
 
-                                        </li>
+                                        <li class="menu-item menu-item-has-children financity-normal-menu"><a
+                                                href="#" class="sf-with-ul-pre">Economia</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.investingAngola') }}">Como
+                                                        Investir em Angola</a></li>
 
-                                        <li class="menu-item menu-item-has-children financity-mega-menu"><a
-                                                href="#" class="sf-with-ul-pre">Grandes Investimentos</a>
-                                            <div class="sf-mega sf-mega-full">
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item menu-item-has-children" data-size="20">
-                                                        <ul class="sub-menu">
+                                                <li class="menu-item menu-item-has-children" data-size="15"><a
+                                                        href="#" class="sf-with-ul-pre">Investimentos</a>
 
-                                                            <li class="menu-item"><a data-bs-toggle="collapse"
-                                                                    href="#collapseExample3" role="button"
-                                                                    aria-expanded="false"
-                                                                    aria-controls="collapseExample3">Refinarias <i
-                                                                        class="fa fa-chevron-down"
-                                                                        aria-hidden="true"></i></a></li>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item menu-item-has-children"><a href="#"
+                                                                class="sf-with-ul-pre">Polos de
+                                                                investimentos</a>
 
-                                                            <div class="container collapse" id="collapseExample3">
+                                                            <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                                                    <a href="{{ route('site.oceanTerminal') }}">Terminal
+                                                                        Oceânico da Barra do
+                                                                        Dande</a>
 
+
+                                                                </li>
+
+                                                                <li class="item-menu">
+                                                                    <a href="{{ route('site.photovoltaicPlant') }}">Centrais
+                                                                        Fotovoltaica do Biópio e Baía Farta</a>
+                                                                </li>
+
+
+                                                            </ul>
+                                                        </li>
+
+
+                                                        <li class="menu-item menu-item-has-children"><a href="#"
+                                                                class="sf-with-ul-pre">Refinarias</a>
+
+                                                            <ul class="sub-menu">
                                                                 <li class="menu-item"><a
                                                                         href="{{ route('site.refineryOfCabinda') }}">Refinaria
                                                                         de Cabinda</a></li>
@@ -445,69 +538,41 @@
                                                                         de Petróleo do Lobito</a></li>
                                                                 <li class="menu-item"><a
                                                                         href="{{ route('site.refineryOfGold') }}">Refinaria
-                                                                        de Ouro, Luanda</a></li>
+                                                                        de Ouro (Luanda)</a></li>
 
 
-                                                            </div>
+                                                            </ul>
+                                                        </li>
 
+                                                        <li class="menu-item menu-item-has-children"><a href="#"
+                                                                class="sf-with-ul-pre">Barragens</a>
 
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.developmentHubOfNamibe') }}">Polo
-                                                                    de desenvolvimento de Rochas Ornamentais do
-                                                                    Namíbe</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.developmentHubOfSaurimo') }}">Polo
-                                                                    de Desenvolvimento diamantífero de Saurimo</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.oceanTerminal') }}">Terminal
-                                                                    Oceânico da Barra do Dande</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.photovoltaicPlant') }}">Centrais
-                                                                    Fotovoltaica do Biópio e Baía Farta</a></li>
-                                                        </ul>
-                                                    </li>
-
-                                                    <li class="menu-item menu-item-has-children" data-size="20">
-                                                        <ul class="sub-menu">
-
-                                                            <li class="menu-item"><a data-bs-toggle="collapse"
-                                                                    href="#collapseExample2" role="button"
-                                                                    aria-expanded="false"
-                                                                    aria-controls="collapseExample2">Barragens e
-                                                                    Hidroelétricas <i class="fa fa-chevron-down"
-                                                                        aria-hidden="true"></i></a></li>
-
-                                                            <div class="container collapse" id="collapseExample2">
+                                                            <ul class="sub-menu">
                                                                 <li class="menu-item"><a
-                                                                        href="{{ route('site.damCaculoCabaca') }}">Barragem
+                                                                        href="{{ route('site.damCaculoCabaca') }}">
                                                                         Caculo Cabaça</a></li>
                                                                 <li class="menu-item"><a
-                                                                        href="{{ route('site.damLauca') }}">Barragem
-                                                                        de Laúca</a></li>
+                                                                        href="{{ route('site.damLauca') }}">
+                                                                        Laúca</a></li>
 
-                                                            </div>
+                                                            </ul>
+                                                        </li>
 
-                                                            <li class="menu-item"><a data-bs-toggle="collapse"
-                                                                    href="#collapseExample" role="button"
-                                                                    aria-expanded="false"
-                                                                    aria-controls="collapseExample">Hospitais <i
-                                                                        class="fa fa-chevron-down"
-                                                                        aria-hidden="true"></i></a></li>
+                                                        <li class="menu-item menu-item-has-children"><a href="#"
+                                                                class="sf-with-ul-pre">Hospitais</a>
 
-
-
-                                                            <div class="container collapse" id="collapseExample">
-
+                                                            <ul class="sub-menu">
                                                                 <li class="menu-item"><a
                                                                         href="{{ route('site.hospital') }}">Hospital
                                                                         Dom Alexandre do Nascimento</a></li>
                                                                 <li><a
                                                                         href="{{ route('site.hospitalNevesBendinha') }}">
-                                                                        Hospital Especializado Neves Bendinha</a></li>
+                                                                        Hospital Especializado Neves Bendinha</a>
+                                                                </li>
                                                                 <li><a
                                                                         href="{{ route('site.instituteHematologic') }}">
-                                                                        Instituto Hematológico Pediátrico de Luanda</a>
+                                                                        Instituto Hematológico Pediátrico de
+                                                                        Luanda</a>
                                                                 </li>
                                                                 <li><a href="{{ route('site.walterHospital') }}">
                                                                         Hospital Dr.Walter Strangway</a></li>
@@ -519,160 +584,172 @@
                                                                 <li><a href="{{ route('site.firedHospital') }}">Hospital
                                                                         dos Queimados</a></li>
 
-                                                            </div>
-
-                                                        </ul>
-                                                    </li>
-
-                                                    <li class="menu-item menu-item-has-children" data-size="20">
-                                                        <ul class="sub-menu">
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.airPort') }}">Aeroporto Dr.
-                                                                    António Agostinho Neto</a>
-                                                            </li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.angoSat') }}">Programa
-                                                                    Espacial Nacional</a></li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.piim') }}">Plano Integrado de
-                                                                    Intervenção nos Municípios (PIIM)</a>
-                                                            </li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.angolaCables') }}">Angola
-                                                                    Cables</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.frankZone') }}">Zona
-                                                                    Franca</a>
-                                                            </li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.lobitoCorridor') }}">Corredor
-                                                                    do Lobito</a></li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.kwenda') }}">Programa
-                                                                    KWENDA</a></li>
-
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.connectAngola') }}">Conecta
-                                                                    Angola</a></li>
 
 
 
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.digitalAo') }}">Digital.ao</a>
-                                                            </li>
+                                                            </ul>
+                                                        </li>
 
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.governCloud') }}">Cloud do
-                                                                    Governo</a></li>
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.airPort') }}">Aeroporto Dr.
+                                                                António Agostinho Neto</a>
+
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.angoSat') }}">ANGOSAT-2</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.piim') }}">PIIM</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.angolaCables') }}">Angola
+                                                                Cables</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.frankZone') }}">Zona
+                                                                Franca</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.lobitoCorridor') }}">Corredor
+                                                                do Lobito</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.kwenda') }}">Projecto
+                                                                KWENDA</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.connectAngola') }}">Conecta
+                                                                Angola</a>
+                                                        </li>
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.digitalAo') }}">Digital.ao</a>
+                                                        </li>
+
+
+                                                        <li
+                                                            class="menu-item menu-item-has-children financity-mega-menu">
+                                                            <a href="{{ route('site.governCloud') }}">Cloud do
+                                                                Governo</a>
+                                                        </li>
 
 
 
 
-                                                        </ul>
-                                                    </li>
+
+
+                                                    </ul>
+                                                </li>
+
+
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.blueEconomy') }}">Economia
+                                                        Azul</a></li>
+
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.greenEconomy') }}">Economia
+                                                        Verde</a></li>
+
+                                                <li class="menu-item menu-item-has-children financity-normal-menu"><a
+                                                        href="#" class="sf-with-ul-pre">Recursos Minerais</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="{{ route('site.oilGa') }}">Petróleo e
+                                                                Gás</a>
+                                                        </li>
+
+                                                        <li class="menu-item">
+                                                            <a href="{{ route('site.ornamentalRocks') }}">Rochas
+                                                                Ornamentais</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="{{ route('site.diamonds') }}">Diamantes</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.energyWater') }}">Energia e Águas</a>
+                                                </li>
+
+
+                                                <li class="menu-item"><a href="{{ route('site.banking') }}">Banca</a>
+                                                </li>
+
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.tic') }}">Telecomunicações e
+                                                        Tecnologias da Informação
+                                                    </a>
+                                                </li>
+
+                                                <li class="menu-item"><a
+                                                        href="{{ route('site.agribusiness') }}">Agronegócio
+                                                    </a>
+                                                </li>
 
 
 
-                                                </ul>
-                                            </div>
-                                        </li>
-
-                                        <li class="menu-item menu-item-has-children financity-normal-menu">
-                                            <a href="#" class="sf-with-ul-pre">Actualidade</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.news') }}">Notícias</a></li>
-                                                <li class="menu-item" data-size="60"><a
-                                                        href="{{ route('site.event') }}">Eventos</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item menu-item-has-children financity-mega-menu"><a
-                                                href="#" class="sf-with-ul-pre">Angola Hoje</a>
-                                            <div class="sf-mega sf-mega-full">
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item menu-item-has-children" data-size="15"><a
-                                                            class="sf-with-ul-pre">Economia</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.miningResources') }}">Recursos
-                                                                    Minerais</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.oilGa') }}">Petróleo e
-                                                                    Gás</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.blueEconomy') }}">Economia
-                                                                    Azul</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.greenEconomy') }}">Economia
-                                                                    Verde</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.energyWater') }}">Energia
-                                                                    e Águas</a></li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.banking') }}">Sector
-                                                                    Bancário</a></li>
+                                        <li class="menu-item menu-item-has-children financity-normal-menu"><a
+                                                href="#" class="sf-with-ul-pre">Política Institucional
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.legislation') }}">Legislação</a>
+                                                </li>
+                                            </ul>
 
-                                                        </ul>
-                                                    </li>
+                                        </li>
 
-                                                    <li class="menu-item menu-item-has-children" data-size="15"><a
-                                                            class="sf-with-ul-pre">Empreendedorismo</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.agribusiness') }}">Agronegócio</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.tic') }}">Telecomunicações e
-                                                                    Tecnologias da Informação</a></li>
-                                                        </ul>
-                                                    </li>
+                                        <li class="menu-item menu-item-has-children financity-normal-menu"><a
+                                                href="#" class="sf-with-ul-pre">Cultura & Turismo
+                                            </a>
+                                            <ul class="sub-menu">
 
-                                                    <li class="menu-item menu-item-has-children" data-size="15"><a
-                                                            class="sf-with-ul-pre">Investimentos</a>
-                                                        <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.turism') }}">Turismo</a>
+                                                </li>
 
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.external') }}">Diplomático/Externo</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.culturalAndTouristic') }}">Cultural/Turístico</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.economic') }}">Económico</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.investingAngola') }}">Como
-                                                                    Investir em Angola</a></li>
-                                                        </ul>
-                                                    </li>
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.event') }}">Eventos</a>
+                                                </li>
 
-                                                    <li class="menu-item menu-item-has-children" data-size="15"><a
-                                                            href="#" class="sf-with-ul-pre">Galeria</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.gallery') }}">Imagens</a>
-                                                            </li>
-                                                            <li class="menu-item"><a
-                                                                    href="{{ route('site.videos') }}">Vídeos</a></li>
-                                                        </ul>
-                                                    </li>
+                                                <li class="menu-item">
+                                                    <a href="{{ route('site.visa') }}">Vistos</a>
+                                                </li>
+                                            </ul>
 
-                                                </ul>
-                                            </div>
                                         </li>
 
 
 
+
+
+
+
+
                                         </li>
+
+
+                                        <li class="menu-item"><a href="{{ route('site.news') }}">Notícias</a></li>
 
 
 
@@ -680,6 +757,7 @@
                                         <li class="menu-item menu-item-has-children financity-normal-menu">
                                             <a href="#" class="sf-with-ul-pre">Serviços Públicos</a>
                                             <ul class="sub-menu">
+                                                <li class="menu-item" data-size="60"><a href="#">CIAM</a></li>
                                                 <li class="menu-item" data-size="60"><a
                                                         href="{{ route('site.agt') }}">AGT -
                                                         Imposto Predial (IP)</a></li>

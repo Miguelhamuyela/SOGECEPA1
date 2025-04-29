@@ -37,6 +37,12 @@
                                     title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
+                            </span> •
+
+                            <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    title="Go to Financity." href="#" class="home"><span
+                                        property="name">Angola</span></a>
+                                <meta property="position" content="1">
                             </span>
 
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
@@ -49,7 +55,8 @@
                                     title="Go to Our Services." href="{{ route('site.videos') }}"
                                     class="post post-page"><span property="name">Galeria de Vídeos</span></a>
 
-                            </span></div>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>

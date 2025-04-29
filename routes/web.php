@@ -9,6 +9,10 @@ route::get('/', ['as' => 'site.home', 'uses' => 'Site\HomeController@index']);
 Route::get('/noticias', ['as' => 'site.news', 'uses' => 'Site\NewsController@index']);
 Route::get('/noticia/{title}', ['as' => 'site.news.show', 'uses' => 'Site\NewsController@show']);
 
+/* noticias */
+Route::get('/schools', ['as' => 'site.schools', 'uses' => 'Site\SchoolsController@index']);
+Route::get('/schools/{title}', ['as' => 'site.schools.show', 'uses' => 'Site\SchoolsController@show']);
+
 
 /* Galeria fotos */
 Route::get('/galerias-de-imagem/', ['as' => 'site.gallery', 'uses' => 'Site\GalleryController@index']);
@@ -218,6 +222,16 @@ Route::get('plano-integrado-de-intervencao-nos-municipios', ['as' => 'site.piim'
 
 
 Route::get('agt-imposto-predial', ['as' => 'site.agt', 'uses' => 'Site\AgtController@index']);
+
+Route::get('sessoes-tematicas', ['as' => 'site.themedSession', 'uses' => 'Site\ThemedSessionController@index']);
+
+
+
+/**Ornamental Rocks */
+Route::get('rochas-ornamentais', ['as' => 'site.ornamentalRocks', 'uses' => 'Site\OrnamentalRocksController@index']);
+
+/**Diamonds */
+Route::get('diamantes', ['as' => 'site.diamonds', 'uses' => 'Site\DiamondsController@index']);
 
 
 

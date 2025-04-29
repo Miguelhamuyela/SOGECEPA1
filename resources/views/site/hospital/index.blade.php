@@ -40,9 +40,20 @@
                                 <meta property="position" content="1">
                             </span>
 
+
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="#" class="post post-page"><span property="name">Grandes
-                                        Investimentos</span></a>
+                                    href="#" class="post post-page"><span property="name">Economia</span></a>
+
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Investimentos</span></a>
+
+                            </span>
+
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Hospitais</span></a>
 
                             </span>
 

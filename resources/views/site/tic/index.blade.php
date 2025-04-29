@@ -40,7 +40,13 @@
                                     title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
-                            </span>•<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Economia</span></a>
+
+                            </span>
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
                                     href="{{ route('site.tic') }}" class="post post-page"><span
                                         property="name">Telecomunicações e Tecnologias da Informação</span></a>
 

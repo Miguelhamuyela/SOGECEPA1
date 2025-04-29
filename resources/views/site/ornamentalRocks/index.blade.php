@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Economia Verde')
+@section('titulo', 'Rochas Ornamentais')
 @section('content')
 
     <!-- ====== Banner Start ====== -->
@@ -16,7 +16,7 @@
                 <div class="financity-page-title-overlay"></div>
                 <div class="financity-page-title-container financity-container">
                     <div class="financity-page-title-content financity-item-pdlr">
-                        <h1 class="financity-page-title">Economia Verde</h1>
+                        <h1 class="financity-page-title">Rochas Ornamentais</h1>
 
                     </div>
                 </div>
@@ -36,15 +36,19 @@
                             </span>
 
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="#" class="post post-page"><span property="name">Economia</span></a>
+                                    href="#" class="post post-page"><span property="name">Economia</span>
 
-                            </span>
+                                    •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                            href="#" class="post post-page"><span property="name">Recursos
+                                                Minerais</span>
 
-                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="{{ route('site.greenEconomy') }}" class="post post-page"><span
-                                        property="name">Economia Verde</span></a>
 
-                            </span></div>
+                                            •<span property="itemListElement" typeof="ListItem"><a property="item"
+                                                    typeof="WebPage" href="{{ route('site.ornamentalRocks') }}"
+                                                    class="post post-page"><span property="name">Rochas
+                                                        Ornamentais</span></a>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -52,11 +56,13 @@
 
 
         <div class="container">
+
             <div class="row my-5 flex-column-reverse flex-lg-row">
+
                 <div class="col-md-4 col-12">
                     @include('extra._calendar.index')
-                    @include('extra._tags.index')
 
+                    @include('extra._tags.index')
                     @include('extra._publicity.index')
 
                     <div id="gdlr-core-recent-post-widget-4 "
@@ -124,6 +130,7 @@
 
 
                 <div class="col-md-8 col-12 container">
+
 
 
 

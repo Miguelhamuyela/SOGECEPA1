@@ -67,7 +67,7 @@
                                     </button>
                                     <div class="collapse" id="dashboard-collapse">
                                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                            <li><a href="http://127.0.0.1:8000" class="link-dark rounded text-dark"> <i
+                                            <li><a href="{{ route('site.home') }}" class="link-dark rounded text-dark"> <i
                                                         style="font-size: 12px;color:#ffb400;"
                                                         class="bi bi-chevron-right "></i> Início</a></li>
 

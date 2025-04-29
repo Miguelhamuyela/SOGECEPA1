@@ -30,14 +30,19 @@
                     <div class="gdlr-core-pbf-element">
                         <div class="gdlr-core-breadcrumbs-item gdlr-core-item-pdlr gdlr-core-item-pdb "> <span
                                 property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    title="Go to Financity." href="http://127.0.0.1:8000" class="home"><span
+                                    title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
-                            </span>•<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="{{ route('site.oilGa') }}" class="post post-page"><span property="name">Petróleo e
-                                        Gás</span></a>
+                            </span>
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Recursos Minerais</span>
 
-                            </span></div>
+                                    •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                            href="{{ route('site.oilGa') }}" class="post post-page"><span
+                                                property="name">Petróleo e
+                                                Gás</span></a>
+
+                                    </span></div>
                     </div>
                 </div>
             </div>

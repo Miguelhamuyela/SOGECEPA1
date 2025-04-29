@@ -35,7 +35,20 @@
                                     title="Go to Financity." href="{{ route('site.home') }}" class="home"><span
                                         property="name">Início</span></a>
                                 <meta property="position" content="1">
-                            </span>•<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Economia</span></a>
+
+                            </span>
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Investimentos</span></a>
+
+                            </span>
+
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
                                     href="{{ route('site.angoSat') }}" class="post post-page"><span
                                         property="name">ANGOSAT-2</span></a>
                         </div>

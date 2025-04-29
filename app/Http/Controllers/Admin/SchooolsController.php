@@ -1,0 +1,157 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class SchooolsController extends Controller
+{
+    private $Logger;
+
+    public function __construct()
+    {
+        $this->Logger = new Logger;
+    }
+
+    public function list()
+    {
+
+        $response['schools'] = News::get();
+        //Logger
+        $this->Logger->log('info', 'Listou as Noticias');
+        return view('admin.schools.list.index', $response);
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //Logger
+        $this->Logger->log('info', 'Entrou em Criar noticia');
+        return view('admin.schools.create.index');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        $validation = $request->validate([
+            'title' => 'required|min:5|max:255',
+            'typewriter' => 'required|min:2|max:255',
+            'body' => 'required|min:5',
+            'image' => 'required|mimes:jpg,png,jpeg',
+            'date' => 'required',
+
+        ]);
+
+        if ($middle = $request->file('image')) {
+            $file = $middle->storeAs('image', 'image-' . uniqid(rand(1, 5)) . "." . $middle->extension());
+        } else {
+            $file = null;
+        }
+
+
+        $schools = Schools::create([
+            'path' => $file,
+            'title' => $request->title,
+            'typewriter' => $request->typewriter,
+            'body' => $request->body,
+            'date' => $request->date,
+            'state' => 'Autorizada'
+        ]);
+        //Logger
+        $this->Logger->log('info', 'Cadastrou uma noticia com o titulo ' . $schools->title);
+
+        return redirect("admin/schools/show/$schools->id")->with('create', '1');
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+
+        $response['schools'] = News::find($id);
+
+        //Logger
+        $this->Logger->log('info', 'Visualizar uma noticia com o identificador ' . $id);
+        return view('admin.schools.details.index', $response);
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+
+        $response['schools'] = News::find($id);
+        //Logger
+        $this->Logger->log('info', 'Entrou em editar uma noticia com o identificador ' . $id);
+        return view('admin.schools.edit.index', $response);
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        $validation = $request->validate([
+            'title' => 'required|min:5|max:255',
+            'typewriter' => 'required|min:2|max:255',
+            'body' => 'required|min:5',
+            'date' => 'required',
+            'image' => 'mimes:jpg,png,jpeg',
+        ]);
+
+        if ($file = $request->file('image')) {
+            $file = $file->store('schools');
+        } else {
+            $file = Schools::find($id)->path;
+        }
+        Schools::find($id)->update([
+            'path' => $file,
+            'title' => $request->title,
+            'typewriter' => $request->typewriter,
+            'body' => $request->body,
+            'date' => $request->date,
+            'state' => 'Autorizada'
+        ]);
+        //Logger
+        $this->Logger->log('info', 'Editou uma noticia com o identificador ' . $id);
+        return redirect("admin/schools/show/$id")->with('edit', '1');
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //Logger
+        $this->Logger->log('info', 'Eliminou uma noticia com o identificador ' . $id);
+        Schools::find($id)->delete();
+        return redirect()->back()->with('destroy', '1');
+    }
+}
+
+

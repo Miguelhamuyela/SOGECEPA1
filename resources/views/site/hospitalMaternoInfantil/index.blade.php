@@ -41,11 +41,20 @@
                             </span>
 
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                    href="#" class="post post-page"><span property="name">Grandes
-                                        Investimentos</span></a>
+                                    href="#" class="post post-page"><span property="name">Economia</span></a>
 
                             </span>
 
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Investimentos</span></a>
+
+                            </span>
+
+
+                            •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                    href="#" class="post post-page"><span property="name">Hospitais</span></a>
+
+                            </span>
                             •<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
                                     href="{{ route('site.hospitalMaternoInfantil') }}" class="post post-page"><span
                                         property="name">Hospital Materno Infantil</span></a>
@@ -182,14 +191,14 @@
                             </p>
 
                             <div class="col-md-6 col-12 p-2">
-                                <img class="img-fluid" id="img-digitalAo" src="/site/assets/upload/hospital_infantil_1.jpeg"
-                                    alt="">
+                                <img class="img-fluid" id="img-digitalAo"
+                                    src="/site/assets/upload/hospital_infantil_1.jpeg" alt="">
 
                             </div>
 
                             <div class="col-md-6 col-12 p-2">
-                                <img class="img-fluid" id="img-digitalAo" src="/site/assets/upload/hospital_infantil_2.jpeg"
-                                    alt="">
+                                <img class="img-fluid" id="img-digitalAo"
+                                    src="/site/assets/upload/hospital_infantil_2.jpeg" alt="">
 
                             </div>
 
